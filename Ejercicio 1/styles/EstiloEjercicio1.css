@@ -1,0 +1,51 @@
+h1{
+	color: purple;
+	font-family: fantasy;
+	text-align: center;
+}
+
+h3{
+	font-size: 35px;
+	font-family: "Times New Roman";
+}
+
+#datos{
+	color: rgb(0, 0, 255);
+}
+
+#estudios{
+	color: rgb(0, 125, 200);
+}
+
+#lenguajes{
+	color: rgb(0, 175, 255);
+}
+
+img{
+	float: right;
+	width: 150px;
+	height: 150px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+/* Pantalla pequeña */
+@media (max-width: 420px) {
+	img {
+		display: none;
+	}
+	h3{
+		font-size: 18px;
+	}
+}
+
+/* Pantalla mediana */
+@media (min-width: 421px) and (max-width: 900px) {
+	img {
+		width: 100px;
+		height: 100px;
+	}
+	h3{
+		font-size: 26px;
+	}
+}
